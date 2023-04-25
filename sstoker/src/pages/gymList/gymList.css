@@ -1,0 +1,41 @@
+.glistContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.glistWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+
+.glistSearch{
+    flex:1;
+    background-color: #9780B6;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+
+}
+
+.glsTitle{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.glsItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.glsItem>label{
+    font-size: 12px;
+
+}

@@ -1,0 +1,45 @@
+.usercontainer{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.usercontainer{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.ill{
+    width: 40%;
+}
+.title{
+    color: #532C85;
+}
+.nameinput{
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.nameTexInput{
+    padding: 10px 20px;
+    align-items: center;
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    /* background-color: #e8d7ff; */
+    border-radius: 10px;
+    border-color: #d5b5ff;
+
+}
+.userBtn{
+    background:  #8f68c2;
+    color:white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid #cba3ff;
+    padding: 10px;
+    width: 320px;
+    align-items: center;
+}
